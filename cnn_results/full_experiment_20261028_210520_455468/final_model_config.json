@@ -1,0 +1,35 @@
+{
+  "learning_rate": 0.0001,
+  "epochs": 10,
+  "seed": 1010,
+  "mean": [
+    0.4913996786151961,
+    0.48215840839460805,
+    0.44653091444546567
+  ],
+  "std": [
+    0.24703223246328218,
+    0.24348512800005523,
+    0.26158784172796434
+  ],
+  "classes": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "input_shape": [
+    3,
+    32,
+    32
+  ],
+  "optimizer": "Adam",
+  "batch_size": 32,
+  "parameter_count": 28144010
+}

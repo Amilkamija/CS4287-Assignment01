@@ -1,0 +1,16 @@
+{
+  "quick_check": true,
+  "folds": 3,
+  "epochs": 1,
+  "learning_rates": [
+    0.0001,
+    0.001
+  ],
+  "batch_size": 32,
+  "seed": 10,
+  "max_batches": 2,
+  "optimizer": "Adam",
+  "weight_decay": 0,
+  "device": "cuda",
+  "torch_version": "2.10.0+cu126"
+}

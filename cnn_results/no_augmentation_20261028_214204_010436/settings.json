@@ -1,0 +1,14 @@
+{
+  "baseline_directory": "cnn_results\\full_experiment_20261028_210520_455468",
+  "augmentation": false,
+  "learning_rate": 0.0001,
+  "epochs": 10,
+  "folds": 3,
+  "batch_size": 32,
+  "seed": 10,
+  "optimizer": "Adam",
+  "weight_decay": 0,
+  "selection_metric": "mean final-epoch validation accuracy",
+  "device": "cuda",
+  "torch_version": "2.10.0+cu126"
+}
